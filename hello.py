@@ -25,8 +25,8 @@ app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = os.environ.get('MAIL_USERNAME')
 app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD')
 app.config['BLOG_MAIL_SUBJECT_PREFIX'] = '<Bon Blogueur>'
-app.config['BLOG_MAIL_SENDER'] = 'sarthaknsit@gmail.com'
-app.config['BLOG_ADMIN'] = 'sarthaknsit@gmail.com'
+app.config['BLOG_MAIL_SENDER'] = '<youremail-id>'
+app.config['BLOG_ADMIN'] = '<user e-mail id>'
 
 manager = Manager(app)
 bootstrap = Bootstrap(app)
